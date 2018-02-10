@@ -1,0 +1,68 @@
+///////////////////////////////
+// CHANGELOG
+/////////////////////////////// 
+
+Legend:
++ Added feature
+* Improved/changed feature
+- Bug fixed (we hope)
+--------------------------
+
+version 3.0.2 (10/03/2010) :
+
+* Changed system log
++ Create log system
+
+version 3.0.1 (17/10/2009) :
+
+- Bug fixed: is_array() for parsing global content message
++ New filter added: seek in Name in email
++ Added auto detect imap_open()
+- Case insensitive regular expression match for all filters
+
+version 3.0 (18/07/2009) :
+
+* File databases reviewed anti-spam
+* Anti-spam engine reviewed: better detection rates of spam and false postifives
+* Configuration file reviewed
+* CRDF reviewed Engine Technologies
++ Advanced filter regex
+- Bug detection /notls
+
+version 2.1.4 (17/06/2009):
+
+- Vars NameResultOfRBS Bug fixed
+- Division by zero for CRDF Technologies bug fixed
+
+version 2.1 (11/04/2009):
+
++ New filter: CRDF Blacklist Community
++ New filter: empty message detection
+- ClamAV AntiVirus bug fixed
+* Service Updater v2.1 changed with console mode
+* Multi-attachment email bug fixed
+
+version 2.0 (18/03/2009):
+
+First public release
+
++ Service updater in developement
+* CRDF Technologies update
+- All bugs fixed
+
+version 1.2.1 (17/02/2009):
+
+- ClamAV AntiVirus function with PHP5 bug fixed
++ Timezone PHP5
+* Database anti-spam update
+
+version 1.1.3 (20/10/2008):
+
++ Added a new function : ClamAV antivirus
+- IP Range Adress bug fixed
++ New rules for database anti-spam
+- Division by zero for CRDF Technologies bug fixed
+
+version 1.1.1 (17/08/2008):
+
+First private release
